@@ -5,8 +5,8 @@ import "../style/Header.css";
 
 const NavBar = () => {
   return (
-    <Navbar bg="white" expand="lg" >
-      <section className="container-xxl">
+    <Navbar bg="white" expand="lg" className="">
+      <section className="container-xxl position-fixed bg-white pt-5">
         <Navbar.Brand href="#" className="d-flex align-items-center">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <img src={Logo} alt="Logo" className="navbar-logo" />
